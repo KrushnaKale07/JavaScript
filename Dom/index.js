@@ -19,8 +19,14 @@ console.log('Script Loaded');
 
 // console.log(document.getElementsByTagName('img'));
 
-console.log(document.querySelectorAll('.logo img'));
-console.log(document.querySelector('.logo img'));
+// console.log(document.querySelectorAll('.logo img'));
+// console.log(document.querySelector('.logo img'));
 
 // brr.push(1,13);
 // console.log(brr);
+
+// * Countdown *
+
+// var CountdownElement = document.getElementById('countdown');
+
+// console.log(CountdownElement.innerHTML);
