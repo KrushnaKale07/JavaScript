@@ -14,9 +14,9 @@ setInterval(function () {
  
     CountdownElement.innerHTML=initialCountdownVal ;
 
-    var backImgpath =initialCountdownVal %2 === 0 ? '/Dom/image/Krushna Kale Selfie before test.jpeg' : '/Dom/image/img1.jpg'
+    var backImgPath =initialCountdownVal %2 === 0 ? '/Dom/image/Krushna Kale Selfie before test.jpeg' : '/Dom/image/img1.jpg'
 
-    bgImageElement.src = backImgpath;
+    bgImageElement.src = backImgPath;
 
     bgImageElement.className = 'BackImage';
 
