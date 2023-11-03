@@ -9,7 +9,7 @@ var interval = setInterval(function () {
     CountdownElement.innerHTML= initialCountdownVal;
     CountdownElement.style.fontSize = initialCountdownVal * 100 + "px"
 
-    bgImage.style.width = initialCountdownVal * 10 + "%"
+    bgImage.style.width = initialCountdownVal * 10 + "%" 
     
     console.log(initialCountdownVal * 100 + "px" )
 
